@@ -87,8 +87,10 @@ The application is configured for deployment on Replit with the following setup:
 - Port configuration for Replit's proxy system (port 5000 → 80)
 
 ## Changelog
-- June 17, 2025. Initial setup
+- June 17, 2025. Initial setup - Full-stack chat application with React frontend and Express backend
+- June 17, 2025. Local setup documentation created for machine coding practice
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Use case: Machine coding round practice - user needs local development setup instructions.
