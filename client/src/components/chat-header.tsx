@@ -1,7 +1,7 @@
 import { MessageCircle, Wifi } from "lucide-react";
 
 interface ChatHeaderProps {
-  messageCount: number;
+  messageCount: number; 
   isConnected: boolean;
 }
 

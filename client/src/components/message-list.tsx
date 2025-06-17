@@ -6,7 +6,7 @@ import { Check } from "lucide-react";
 interface MessageListProps {
   messages: Message[];
   currentUsername: string;
-  isLoading: boolean;
+  isLoading: boolean; 
 }
 
 export default function MessageList({ messages, currentUsername, isLoading }: MessageListProps) {

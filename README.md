@@ -13,7 +13,7 @@ A real-time chat application built with React and Node.js, perfect for machine c
 ## Local Setup
 
 ### Prerequisites
-- Node.js 18 or higher
+- Node.js 18 or high er
 
 ### Installation
 

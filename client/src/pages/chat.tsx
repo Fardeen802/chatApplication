@@ -11,7 +11,7 @@ export default function Chat() {
   const [username, setUsername] = useState<string>("");
   const { toast } = useToast();
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false); 
 
   // Use WebSocket instead of polling
   const { messages, isConnected, isConnecting, sendMessage } = useWebSocket();

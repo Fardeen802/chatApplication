@@ -5,7 +5,7 @@ import { Label } from "@/components/ui/label";
 import { Send, AlertTriangle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
-interface MessageInputProps {
+interface MessageInputProps { 
   username: string;
   onUsernameChange: (username: string) => void;
   onSendMessage: (message: string) => void;

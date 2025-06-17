@@ -11,7 +11,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Chat} />
       <Route component={NotFound} />
-    </Switch>
+    </Switch> 
   );
 }
 

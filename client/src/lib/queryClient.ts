@@ -8,7 +8,7 @@ async function throwIfResNotOk(res: Response) {
 }
 
 export async function apiRequest(
-  method: string,
+  method: string, 
   url: string,
   data?: unknown | undefined,
 ): Promise<Response> {

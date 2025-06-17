@@ -3,7 +3,7 @@ import { Wifi, WifiOff, Loader2 } from "lucide-react";
 
 interface ConnectionStatusProps {
   isConnected: boolean;
-}
+} 
 
 export default function ConnectionStatus({ isConnected }: ConnectionStatusProps) {
   const [isReconnecting, setIsReconnecting] = useState(false);
